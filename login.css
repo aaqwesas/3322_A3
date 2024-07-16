@@ -1,0 +1,25 @@
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body{
+    padding: 30px;
+}
+
+.notification {
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+      min-width: 300px;
+      max-width: 500px;
+    }
+}
